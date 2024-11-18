@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --configuration=production --base-href=/github-ci-cd-deleite/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:deleite": "node dist/deleite/server/server.mjs"
